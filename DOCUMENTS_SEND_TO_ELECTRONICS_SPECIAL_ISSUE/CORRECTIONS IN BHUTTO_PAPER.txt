@@ -1,0 +1,9 @@
+1)	put symbol not x in Inception block figure
+2)	Replaced as 3x3 5x5 7x7
+3)	Put arrow in proposed inception block
+4)	Figure 4 and Figure 2 used same typing format
+5)	Arrows of Figure 1 is still not in straight direction if zoom the image
+6)	Arrows of Figure 2 is still not in straight direction if zoom the image
+7)	Figure 5, Figure 6 and Figure 7 is used multiply symbol not x
+
+	441		MIRN Multiple improved residual networks
