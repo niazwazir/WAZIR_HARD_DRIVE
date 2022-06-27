@@ -1,0 +1,68 @@
+
+http add in the text
+-------------------------
+\url{(https://github.com/jbhuang0604/SelfExSR)}
+
+
+
+Bullets
+..
+START TEXT ON NEW PAGE		\clearpage
+
+
+....................... 		
+\begin{itemize}
+  \item One entry in the list
+  \item Another entry in the list
+\end{itemize}
+...........................
+Vertical Space = \vspace{5mm} %5mm vertical space
+
+start inverted comma	=	$``* "$
+
+\copyright 2020	=	©2020
+50%		=	50\%
+underline with color	= \underline{\textcolor{blue}{wazir}}	
+33%		=	33\%
+[1,2]		=	\cite{stankovic2003haar,zeiler2011adaptive}
+[1-7]		=	\cite{kim2016accurate,kim2016deeply,lai2017deep,ledig2017photo,lim2017enhanced,tai2017image}
+3 x 3		=	$3\times3$
+3x3x1		=	$3\times 3\times1$
+Subscript	=	Y_{3}
+Superscript	=	Y^{3}
+N2		=	$N_2$
+100th		=	100\textsuperscript{th}
+1st		=	$1^{st}$
+ith		=	$i^{th}$
+4x		=	$4\times$
+Red Color	=	\textcolor{red}{wazir}
+Blue Color	=	\textcolor{blue}{wazir}
+Underline	=	\underline{\textcolor{blue}{34.51}}
+Bold with color	=	\textbf{\textcolor{red}{wazir}}
+Bold		=	\textbf{wazir}
+Italic		=	\textit{et al.}
+Theta		=	$\theta$
+Infinity	=	$\infty$
+(wazir)		=	\big(wazir\big)
+(x,y)		=	$(x,y)$
+
+
+ \textbf{\textcolor{blue}{wazir}}
+
+\begin{equation}
+			G(y,x,j) = \sum_{u=1}^{k}\sum_{v=1}^{k}\norm{K(u,v,j)}\times I (y+u-1,x+v,j)
+			\end{equation}
+
+
+MSES LOSS	=	\begin{equation}
+L(\theta) = \frac{1}{m}\sum_{i=1}^{m}\norm{F(Y_{i};\theta)-X_{i}}^2\\
+
+
+summation	=	\begin{equation}
+			L(\theta) = \frac{1}{N}\sum_{i=1}^{N}\norm{F(y^i;\theta)-x^i}^2\\
+			\end{equation}
+$\mu$'s		=	mu's
+Multiple line comments	=	\begin{comment}	
+				Commented code
+				\end{comment}
+

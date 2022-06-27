@@ -1,0 +1,31 @@
+CREATE NEW ENVIRONMENT
+conda create -n tf python=3.7
+
+ACTIVATE NEW ENVIRONMENT
+conda activate tf
+
+INSTALL IPYKERNEL
+pip install ipykernel
+
+ACTIVATE IPYKERNEL
+python -m ipykernel install --user --name tf --display-name "tf"
+
+INSTALL TENSORFLOW GPU
+conda install tensorflow-gpu=1.10.0
+
+INSTALL JUPYTER NOTEBOOK
+conda install jupyter
+
+INSTALL KERAS
+pip install keras
+
+DELETE ENVIRONMENT
+conda env remove --name tensorflow
+conda list
+EnvironmentLocationNotFound: Not a conda environment: C:\Users\user\anaconda3\envs\tensorflow
+NOW GO ON THAT PATH AND DELETE THIS FOLDER (tensorflow)
+
+
+Viewing a list of your environments
+conda env list  OR
+conda info --envs
